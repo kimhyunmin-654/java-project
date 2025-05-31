@@ -1,0 +1,15 @@
+DROP TABLE score PURGE;
+
+CREATE TABLE score (
+    hak   VARCHAR2(30) NOT NULL,
+    name  VARCHAR2(30) NOT NULL,
+    birth DATE NOT NULL,
+    kor   NUMBER(3) NOT NULL,
+    eng   NUMBER(3) NOT NULL,
+    mat   NUMBER(3) NOT NULL,
+    PRIMARY KEY(hak)
+);
+
+SELECT * FROM tab;
+SELECT * FROM score;
+
